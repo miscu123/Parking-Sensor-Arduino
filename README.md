@@ -82,8 +82,8 @@ Use PWM fading LEDs instead of ON/OFF.
 
 Integrate with a car display for digital distance readout.
 
+Make it weatherproof for permanent car installation.
+
 ## Demo video
 
 Demo video available in Distance_sensor directory
-
-Make it weatherproof for permanent car installation.
