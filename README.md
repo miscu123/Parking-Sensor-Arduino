@@ -5,7 +5,7 @@ It’s designed to be installed in cars that don’t come with built-in parking 
 
 ## 📋 Features
 
-Uses an ultrasonic sensor (HC-SR04 or similar) to measure distance.
+Uses an ultrasonic sensor (HC-SR04) to measure distance.
 
 Three LED indicators for distance feedback:
 
