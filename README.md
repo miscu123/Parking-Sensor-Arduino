@@ -1,9 +1,9 @@
-#Parking-Sensor-Arduino 🚗🔊
+# Parking-Sensor-Arduino 🚗🔊
 
 This project implements a parking sensor system using an Arduino, an ultrasonic sensor, and LED indicators.
 It’s designed to be installed in cars that don’t come with built-in parking sensors, providing a simple and effective way to detect obstacles while reversing.
 
-##📋 Features
+## 📋 Features
 
 Uses an ultrasonic sensor (HC-SR04 or similar) to measure distance.
 
@@ -19,7 +19,7 @@ Interrupt-based echo reading for accurate distance measurement.
 
 Efficient trigger interval to avoid unnecessary sensor pings.
 
-##🛠️ Components Required
+## 🛠️ Components Required
 
 Arduino Uno / Nano / Mega
 
@@ -31,7 +31,7 @@ Resistors (220Ω for each LED)
 
 Jumper wires & breadboard (or custom PCB for installation in a car)
 
-##⚡ Circuit Connections
+## ⚡ Circuit Connections
 Component	Arduino Pin
 Ultrasonic Trig	D7
 Ultrasonic Echo	D2 (Interrupt)
@@ -39,7 +39,7 @@ Green LED	D9
 Yellow LED	D10
 Red LED	D11
 
-##📜 How It Works
+## 📜 How It Works
 
 The Arduino triggers the ultrasonic sensor at set intervals.
 
@@ -57,7 +57,7 @@ Depending on the measured distance, the system lights up the corresponding LED:
 
 < 15 cm → Red LED ON
 
-##🚀 Getting Started
+## 🚀 Getting Started
 1. Clone this repository
 
 2. Open in Arduino IDE
@@ -74,7 +74,7 @@ Go to Tools > Port → Select the correct COM port.
 
 Click Upload and wait for it to compile & flash.
 
-##🔮 Possible Improvements
+## 🔮 Possible Improvements
 
 Add a buzzer for audible feedback.
 
