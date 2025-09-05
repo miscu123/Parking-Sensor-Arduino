@@ -62,7 +62,7 @@ Depending on the measured distance, the system lights up the corresponding LED:
 
 2. Open in Arduino IDE
 
-Open Parking-Sensor-Arduino.ino in Arduino IDE.
+Open Distance_sensor.ino in Arduino IDE.
 
 3. Select your board & port
 
@@ -81,5 +81,9 @@ Add a buzzer for audible feedback.
 Use PWM fading LEDs instead of ON/OFF.
 
 Integrate with a car display for digital distance readout.
+
+## Demo video
+
+Demo video available in Distance_sensor directory
 
 Make it weatherproof for permanent car installation.
